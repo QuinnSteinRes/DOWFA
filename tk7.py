@@ -1,3 +1,8 @@
+# Main things was to begin the manouvering between frames or classes, this was taking me a long time...
+#...as well as issues associated with FigureCanvas(Tk/TkAgg) and compatability with matlib...
+#...The graphing problems have been fixed and should now be far easier to build.
+
+
 import matplotlib
 matplotlib.use("TkAgg")
 from matplotlib.backend_bases import key_press_handler
@@ -30,7 +35,7 @@ f = Figure(figsize=(5,4), dpi=100)
 a = f.add_subplot(111)
 
 def animate(i):
-    pullData = open('sampleText.txt','r').read()
+    pullData = open('sampleText.txt','r').read()   #Just an example for taking live data 
     dataArray = pullData.split('\n')
     xar=[]
     yar=[]
