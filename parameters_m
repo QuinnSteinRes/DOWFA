@@ -31,15 +31,15 @@ iso_atecon_C = 3  # Atomic Economy for Carbon
 
 #Emmisions Data--------------------------------------
 
-#demunic = 0.15
+#demunic = 0.285
 min_demunic = 0.17
 max_demunic = 0.40
 
-#depharma = 0.075
+#depharma = 0.065
 min_depharma = 0.03
 max_depharma = 0.10
 
-#deplasma = 0.0001
+#deplasma = 0.00055
 min_deplasma = 0.0001
 max_deplasma = 0.001
 
@@ -48,9 +48,9 @@ max_deplasma = 0.001
 min_munic_other = 0.7
 max_munic_other = 1.7
 
-#pharam_other = 1.074
+#pharam_other = 0.96
 min_pharam_other = 0.851
-max_pharam_other = 0.851
+max_pharam_other = 1.05
 
 #plasma_other = 0.389 #Estimated from, electrical use 
 min_plasma_other = 0.040
@@ -66,9 +66,9 @@ min_sur_100k = 10332
 max_sur_100k = 10590
 
 
-#growth_rate = 0.06 #% growthrate 
-min_growth_rate = 0.035
-max_growth_rate = 0.035
+#growth_rate = 0.0035 # growthrate 
+min_growth_rate = 0.0035
+max_growth_rate = 0.0035
 
 
 #2017 Base-----------------------------------------
