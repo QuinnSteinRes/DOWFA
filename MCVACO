@@ -285,6 +285,8 @@ class determ(tk.Frame):
                     calculated_value7 = (calculated_value3 *1000) / convert_L_kg
                     calculated_value8 = (calculated_value4 *1000) / convert_L_kg
                     
+                    calculated_value9 =  (van_factor * network_distance)/1000
+                    
                     mean_cv_1 = np.mean(calculated_value1)
                     mean_cv_2 = np.mean(calculated_value2)
                     mean_cv_3 = np.mean(calculated_value3)
@@ -293,11 +295,13 @@ class determ(tk.Frame):
                     mean_cv_6 = np.mean(calculated_value6)
                     mean_cv_7 = np.mean(calculated_value7)
                     mean_cv_8 = np.mean(calculated_value8)
+                    mean_cv_9 = np.mean(calculated_value9)
                     
                     sd_cv_1 = np.std(calculated_value5)
                     sd_cv_2 = np.std(calculated_value6)
                     sd_cv_3 = np.std(calculated_value7)
                     sd_cv_4 = np.std(calculated_value8)
+                    sd_cv_5 = np.std(calculated_value9)
                     
                     
 
@@ -316,6 +320,8 @@ class determ(tk.Frame):
                     print(sd_cv_2)
                     print(sd_cv_3)
                     print(sd_cv_4)
+                    print(sd_cv_5)
+                    print(mean_cv_9)
                     
                     
                     #plt.hist(calculated_value3)
