@@ -39,7 +39,7 @@ MAC_sev = 2.2
 MAC_iso = 1.2
 
 sur_100k = 10487 # Intermediate and restrictive procedures per 100k ave UK average 2009-2014
-growth_rate = 0.06 #% growthrate 
+growth_rate = 0.0035 #% growthrate 
 
 
 #2017 Base
@@ -64,7 +64,7 @@ ktco2e_iso_base = 5.25
 
 #CO2e / kg waste 
 munic_other = 1.2 #Assuming dillution is not required and just dosed 
-pharam_other = 1.074
+pharam_other = 0.96
 plasma_other = 0.389#Estimated from, electrical use 
 
 
