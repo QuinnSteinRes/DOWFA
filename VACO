@@ -260,6 +260,8 @@ class determ(tk.Frame):
                     calculated_value6 = (calculated_value2 *1000) / convert_L_kg
                     calculated_value7 = (calculated_value3 *1000) / convert_L_kg
                     calculated_value8 = (calculated_value4 *1000) / convert_L_kg
+                    
+                    route_1 =  (van_factor * network_distance)/1000
 
 
                     # Display calculated values in respective output labels
@@ -272,6 +274,7 @@ class determ(tk.Frame):
                     self.output6.config(text=f'{calculated_value6:.1f}')
                     self.output7.config(text=f'{calculated_value7:.1f}')
                     self.output8.config(text=f'{calculated_value8:.1f}')
+                    print(route_1)
 
         except ValueError:
             pass
