@@ -1,6 +1,6 @@
 Title= "Carbon footprint predictions for fluorinated anaesthetics used in the UK NHS"
 
-Authors = "Quinn Stein, Ali Ozel, Alifia Chakera, Marc P. Y. Desmulliez, Humphrey H. P. Yiu, MartinR. S. McCoustr"
+Authors = "Quinn Stein, Ali Ozel, Alifia Chakera, Marc P. Y. Desmulliez, Humphrey H. P. Yiu, MartinR. S. McCoustra"
 
 Year= "2024"
 
