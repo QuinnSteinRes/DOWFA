@@ -1,4 +1,4 @@
-Title= "Carbon footprint predictions for fluorinated anaesthetics used in the UK NHS"
+Title= "Computer-aided carbon footprint evaluation for waste management of fluorinated anaesthetics in the UK"
 
 Authors = "Quinn Stein, Ali Ozel, Alifia Chakera, Marc P. Y. Desmulliez, Humphrey H. P. Yiu, MartinR. S. McCoustra"
 
